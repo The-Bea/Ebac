@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de cadastro</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <form class="row g-3 align-items-end justify-content-center mb-3">
+            <div class="col-md-3">
+                <label class="form-label" for="nome" class="">Nome:</label>
+                <input class="form-control" type="text" id="nome">
+            </div>
+            <div class="col-md-4">
+                <label class="form-label" for="email">E-mail:</label>
+                <input class="form-control" type="email" id="email">
+            </div>
+            <div class="col-md-2">
+                <label class="form-label" for="telefone">Telefone</label>
+                <input class="form-control" type="tel" id="telefone">
+            </div>
+            <button class="btn btn-success col-md-1" type="submit">Adicionar</button>
+
+        </form>
+    </header>
+    <table class="table table-primary table-hover">
+        <caption>Tabela de cadastro</caption>
+        <div>
+            <thead>
+                <th>Nome</th>
+                <th>E-mail</th>
+                <th>Telefone</th>
+            </thead>
+
+            <tbody class="table table-dark table-striped ">
+                <tr>
+                    <td>Ana</td>
+                    <td>Ana.example@gmail.com</td>
+                    <td>(24) 9458-2170</td>
+                </tr>
+                <tr>
+                    <td>Ana</td>
+                    <td>Ana.example@gmail.com</td>
+                    <td>(24) 9458-2170</td>
+                </tr>
+                <tr>
+                    <td>Ana</td>
+                    <td>Ana.example@gmail.com</td>
+                    <td>(24) 9458-2170</td>
+                </tr>
+            </tbody>
+        </div>
+    </table>
+</body>
+</html>
